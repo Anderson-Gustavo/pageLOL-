@@ -12,6 +12,7 @@ body {
 }
 
 .navegation {
+    position: fixed;
     height: 70px;
     width: 100vw;
     padding-top: 10px;
@@ -74,6 +75,15 @@ body {
 
 .sectionTwo {
     border-top: gold 0.9px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionTwoText {
+    font-size: 18pt;
+    color: white;
 }
 
 .lolVideo {
